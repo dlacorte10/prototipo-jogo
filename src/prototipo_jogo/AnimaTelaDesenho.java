@@ -17,7 +17,9 @@ public class AnimaTelaDesenho extends JFrame{
 			@Override
 			public void paintComponent(Graphics g) {
 				
-				g.setColor(Color.BLUE);
+				Color azulClaro = new Color(135, 206, 250);
+				
+				g.setColor(azulClaro);
 				g.drawLine(0, 240, 640, 240);
 				g.drawRect(10,25,20,20);
 				g.drawOval(30, 20, 40, 30);
